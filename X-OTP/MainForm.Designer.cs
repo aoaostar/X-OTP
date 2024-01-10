@@ -1,4 +1,6 @@
-﻿namespace XOTP
+using OtpNet;
+
+namespace XOTP
 {
     partial class MainForm
     {
@@ -67,12 +69,12 @@
             // 
             // detailControl_otp
             // 
-            otpInput1.Corp = null;
-            otpInput1.Id = "c7de0746-f456-4f86-8c69-46d1d14ed890";
+            otpInput1.Corp = "发行方";
+            otpInput1.Id = Guid.NewGuid().ToString();
             otpInput1.OtpHashMode = OtpNet.OtpHashMode.Sha1;
             otpInput1.SecretKey = "";
-            otpInput1.Step = 120;
-            otpInput1.Username = null;
+            otpInput1.Step = 30;
+            otpInput1.Username = "用户名";
             detailControl_otp.CurrentItem = otpInput1;
             detailControl_otp.Location = new Point(281, 12);
             detailControl_otp.Name = "detailControl_otp";

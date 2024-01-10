@@ -1,4 +1,4 @@
-﻿namespace XOTP
+namespace XOTP
 {
     partial class DetailControl
     {
@@ -102,7 +102,7 @@
             label_timeOutput.Name = "label_timeOutput";
             label_timeOutput.Size = new Size(212, 58);
             label_timeOutput.TabIndex = 31;
-            label_timeOutput.Text = "120";
+            label_timeOutput.Text = "30";
             label_timeOutput.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // button_delete
@@ -181,7 +181,7 @@
             numericUpDown_step.Size = new Size(150, 37);
             numericUpDown_step.TabIndex = 22;
             numericUpDown_step.TextAlign = HorizontalAlignment.Center;
-            numericUpDown_step.Value = new decimal(new int[] { 120, 0, 0, 0 });
+            numericUpDown_step.Value = new decimal(new int[] { 30, 0, 0, 0 });
             // 
             // label_step
             // 

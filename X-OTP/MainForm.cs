@@ -157,6 +157,7 @@ namespace XOTP
                 Step = 120,
             };
             otpInputs.Add(input.Id, input);
+            detailControl_otp.CurrentItem = input;
             SaveConfig();
             RenderOtpItem();
         }

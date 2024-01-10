@@ -42,8 +42,6 @@ namespace XOTP
         public string HtmlUrl { get; set; }
     }
 
-
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
     public class Asset
     {
         public string url { get; set; }

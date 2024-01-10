@@ -1,4 +1,4 @@
-﻿using OtpNet;
+using OtpNet;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -37,7 +37,7 @@ namespace XOTP
         {
             Id = Guid.NewGuid().ToString(),
             SecretKey = "",
-            Step = 120,
+            Step = 30,
             OtpHashMode = OtpHashMode.Sha1,
         };
         public OtpInput CurrentItem

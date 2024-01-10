@@ -1,4 +1,4 @@
-﻿namespace XOTP
+namespace XOTP
 {
     partial class OtpItemControl
     {
@@ -66,7 +66,7 @@
             progressBar_otp.Anchor = AnchorStyles.None;
             progressBar_otp.Cursor = Cursors.Hand;
             progressBar_otp.Location = new Point(0, 140);
-            progressBar_otp.Maximum = 120;
+            progressBar_otp.Maximum = 30;
             progressBar_otp.Name = "progressBar_otp";
             progressBar_otp.Size = new Size(211, 2);
             progressBar_otp.Step = 1;
